@@ -32,6 +32,16 @@ mkdir /workspace/tmp
 cd  /workspace/temp
 ```
 
+## Github CLI
+```
+brew install gh
+```
+
+```
+gh login
+gh repo clone hiranyagarbh/Github-Examples
+```
+
 ## Commits
 to commit code -> which in turn open up the commit edit message
 ```sh
