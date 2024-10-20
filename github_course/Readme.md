@@ -13,15 +13,19 @@ open Readme.md
 git commit -a -m "add readme file"
 ```
 
-## Cloning
+### Cloning
 
 Three ways : HTTPS, SSH, Github CLI
 
-```sh
+```ssh
 git clone https://github.com/hiranyagarbh/Github-Examples.git
 ```
 
-since we are using Github Codespaces > create a temp dir in out workspace
+### SSH
+
+```sh
+git clone git@github.com:hiranyagarbh/Github-Examples.git
+```
 
 ```sh
 mkdir /workspace/tmp
