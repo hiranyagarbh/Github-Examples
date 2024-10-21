@@ -59,7 +59,14 @@ git config --global.editor emacs
 ## Branches
 ## Remotes
 ## Stashing
+
 ## Merging
+g
+to merge current branch to target branch
+
+```
+git merge _target_branch_name_
+```
 
 # Add
 ```
