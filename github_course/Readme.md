@@ -73,7 +73,7 @@ switch/checkout the branch
 git checkout _branch_name_
 ```
 
-To push the current branch and set the remote as upstream, use
+### To push the current branch and set the remote as upstream, use
 ```
 git push --set-upstream origin dev
 ```
@@ -81,9 +81,14 @@ or
 ```
 git push -u origin dev
 ```
-
-## Remotes
 ## Stashing
+```
+git stash
+git stash list
+git stash save _instance_name_
+git stash apply
+git stash pop
+```
 ## Merging
 
 # Add
