@@ -82,6 +82,7 @@ or
 git push -u origin dev
 ```
 ## Stashing
+<<<<<<< HEAD
 ```
 git stash
 git stash list
@@ -89,6 +90,9 @@ git stash save _instance_name_
 git stash apply
 git stash pop
 ```
+=======
+
+>>>>>>> main
 ## Merging
 g
 to merge current branch to target branch
