@@ -90,6 +90,12 @@ git stash apply
 git stash pop
 ```
 ## Merging
+g
+to merge current branch to target branch
+
+```
+git merge _target_branch_name_
+```
 
 # Add
 ```
