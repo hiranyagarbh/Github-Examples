@@ -56,10 +56,43 @@ to set global editor
 ```
 git config --global.editor emacs
 ```
-## Branches
-## Remotes
-## Stashing
 
+## Branches
+list of branches
+```
+git branch
+```
+
+create a new branch
+```
+git branch _branch_name_
+```
+
+switch/checkout the branch
+```
+git checkout _branch_name_
+```
+
+### To push the current branch and set the remote as upstream, use
+```
+git push --set-upstream origin dev
+```
+or
+```
+git push -u origin dev
+```
+## Stashing
+<<<<<<< HEAD
+```
+git stash
+git stash list
+git stash save _instance_name_
+git stash apply
+git stash pop
+```
+=======
+
+>>>>>>> main
 ## Merging
 g
 to merge current branch to target branch
