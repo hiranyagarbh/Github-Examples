@@ -56,7 +56,23 @@ to set global editor
 ```
 git config --global.editor emacs
 ```
+
 ## Branches
+list of branches
+```
+git branch
+```
+
+create a new branch
+```
+git branch _branch_name_
+```
+
+switch/checkout the branch
+```
+git checkout _branch_name_
+```
+
 ## Remotes
 ## Stashing
 ## Merging
